@@ -22,10 +22,17 @@ match modo:
         st.write(f"You selected Mode 4 with value: {valor}")
     case "Mode 5":
         st.write(f"You selected Mode 5 with value: {valor}")
+        
+    case _:
+        st.write("Invalid mode selected.")
     case _:
         st.write("Invalid mode selected.")    
         
         
+        
+        
+        
+
     
     
     
