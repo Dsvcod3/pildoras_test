@@ -1,1 +1,26 @@
 streamtlist
+
+Aquí tienes la guía completa de convenciones profesionales para tus mensajes de commits y la nomenclatura de tus ramas (branches) según las buenas prácticas enseñadas en el curso:
+
+Convención para Mensajes de Commit (0:57:31)
+La estructura estándar es tipo: descripción corta. El tipo indica la naturaleza del cambio:
+
+feat: Añadir una nueva funcionalidad (ej: feat: añade sistema de login).
+fix: Corregir errores o bugs (ej: fix: corrige error en cálculo kelvin).
+docs: Cambios exclusivos en la documentación (ej: docs: actualiza README).
+style: Cambios de formato o estilo que no afectan el funcionamiento del código.
+refactor: Optimización o reestructuración de código sin cambiar la funcionalidad.
+test: Adición o modificación de pruebas (tests).
+chore: Tareas de mantenimiento, dependencias o configuración.
+Convención para Nomenclatura de Ramas (1:28:29)
+Las ramas deben identificar claramente su propósito mediante la estructura: tipo/descripción-corta.
+
+feature/ (o feat/): Para nuevas características (ej: feature/login-google).
+fix/: Para correcciones específicas (ej: fix/error-formato-decimal).
+docs/: Para ramas de documentación.
+hotfix/: Para errores críticos en producción que requieren acción inmediata (5:43:05).
+Reglas de oro para ambos:
+
+Usa minúsculas exclusivamente.
+Nunca incluyas espacios (usa guiones - o barras / para separar).
+Sé imperativo (escribe como una orden: "añade", "corrige") y conciso.
