@@ -29,3 +29,5 @@ Sé imperativo (escribe como una orden: "añade", "corrige") y conciso.
 kkjkjkkjk
 
 jk
+git fetch trae cambios desde el repositorio remoto y los integra en tu rama local. Esto es útil para mantener tu trabajo actualizado con los cambios realizados por otros colaboradores.
+git pull es un comando que combina git fetch y git merge. Trae los cambios del repositorio remoto y los fusiona automáticamente con tu rama local, lo que facilita mantener tu trabajo sincronizado con el equipo.
